@@ -1,0 +1,147 @@
+{
+	"info": {
+		"_postman_id": "be030c1c-a864-4c3b-aeec-20d3194c1b10",
+		"name": "api produtos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44658969",
+		"_collection_link": "https://gabriellucca.postman.co/workspace/Gabriel-Lucca's-Workspace~f8afb577-861c-4c7a-8f91-78c62c7910b5/collection/44658969-be030c1c-a864-4c3b-aeec-20d3194c1b10?action=share&source=collection_link&creator=44658969"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/api/produtos",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/produtos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"produtos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/produtos",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nome\": \"Tênis Nike\",\r\n  \"descricao\": \"Tênis esportivo\",\r\n  \"cor\": \"Preto\",\r\n  \"peso\": 1.2,\r\n  \"tipo\": \"Calçado\",\r\n  \"preco\": 299.99\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/produtos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"produtos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/produtos/682742b88fd1bcc791dd015f",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/produtos/682742b88fd1bcc791dd015f",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"produtos",
+						"682742b88fd1bcc791dd015f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/produtos/682742b88fd1bcc791dd015f",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"preco\": 249.90\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/produtos/682742b88fd1bcc791dd015f",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"produtos",
+						"682742b88fd1bcc791dd015f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/produtos/682742b88fd1bcc791dd015f",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/produtos/682742b88fd1bcc791dd015f",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"produtos",
+						"682742b88fd1bcc791dd015f"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
