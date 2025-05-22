@@ -81,6 +81,6 @@ npm run dev
 #### ☁️ Deploy
 
 A API está hospedada e funcional em:
-http...
+https://api-produtos-ozp3.onrender.com
 
 ## 👨‍💻 Desenvolvido por Gabriel Lucca

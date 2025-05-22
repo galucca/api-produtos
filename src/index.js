@@ -13,7 +13,12 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 
-// Rotas
+// Rota para a raiz "/"
+app.get('/', (req, res) => {
+  res.send('🚀 API de Produtos está no ar!');
+});
+
+// Rotas da API
 app.use('/api', produtoRoutes);
 
 // Conexão com o MongoDB e inicialização do servidor
